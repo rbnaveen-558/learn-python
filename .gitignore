@@ -6,7 +6,6 @@ __pycache__
 .vscode/settings.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
 *$py.class
 
 # Distribution / packaging
@@ -14,7 +13,6 @@ __pycache__/
 build/
 develop-eggs/
 dist/
-downloads/
 eggs/
 .eggs/
 lib/
