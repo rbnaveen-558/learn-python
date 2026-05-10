@@ -58,5 +58,12 @@ for char in text:
         char_count[char] = 1
 print("Character counts:")
 for char, count in char_count.items():
+    
+    print(f"{char}: {count}")
+
+
+ch_count = {c: text.count(c) for c in text}
+print("Character counts (using comprehension):")
+for char, count in ch_count.items():
     print(f"{char}: {count}")
 

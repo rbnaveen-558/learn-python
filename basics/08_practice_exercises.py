@@ -47,3 +47,31 @@ print("Pairs where i != j:", pairs)
 matrix = [[1, 2], [3, 4], [5, 6]]
 flat = [num for row in matrix for num in row]
 print("Flattened list:", flat)
+
+
+def main():
+    st = "hello world"
+    st = st.upper()
+    print(st)
+
+    l = [1, 2, 3]
+    l.append(4)
+    print(l)
+
+    s = {1,3,2,2}
+    s.add(4)
+    print(s)
+
+def ispolyndorm():
+    st = "madam"
+    return st == st[::-1]
+
+if __name__ == "__main__":
+    print(ispolyndorm())
+
+
+# 4. Anagram checker
+def are_anagrams(s1, s2):
+    return sorted(s1) == sorted(s2)
+
+are_anagrams("listen", "silent")

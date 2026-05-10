@@ -57,5 +57,7 @@ print("Slice [-3:]:", letters[-3:])
 
 # List comprehension
 squared = [x**2 for x in range(5)]
+sq = list(map(lambda x: x**2, range(5)))
 print("Squared numbers:", squared)
+print("Squared numbers:", sq)
 
